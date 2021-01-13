@@ -12,7 +12,7 @@ export interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: "small" | "medium" | "large";
+  size?: "small" | "medium";
   /**
    * Button contents
    */
@@ -33,7 +33,15 @@ export const Button: React.FC<ButtonProps> = ({
   label,
   ...props
 }) => {
-  const mode = primary ? "w-24 bg-white" : "storybook-button--secondary";
+  let mode = "rounded-md";
+
+  if (primary) mode += " text-white bg-primary-base hover:bg-primary-shadow";
+  if (!primary)
+    mode +=
+      " text-primary-base border-2 border-primary-base hover:text-primary-shadow hover:border-primary-shadow";
+  if (size === "medium") mode += " px-10 py-3 text-xl";
+  if (size === "small") mode += " px-6 py-2 text-sm";
+
   return (
     <button
       type="button"

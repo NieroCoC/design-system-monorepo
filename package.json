@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.0.0",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-knobs": "^6.1.14",
     "@storybook/addon-notes": "^5.3.21",
@@ -15,7 +16,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
-    "autoprefixer": "^10.2.1",
+    "autoprefixer": "^9",
     "enzyme": "^3.11.0",
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1",
@@ -24,13 +25,15 @@
     "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "tailwindcss": "^2.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "test": "react-scripts test",
-    "build:css": "postcss src/assets/css/tailwind.scss -o src/assets/css/main.css",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "build:css": "postcss ./src/assets/css/index.css -o ./src/assets/css/compiled.css",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
