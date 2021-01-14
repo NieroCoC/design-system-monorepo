@@ -8,7 +8,6 @@
     "@storybook/addon-knobs": "^6.1.14",
     "@storybook/addon-notes": "^5.3.21",
     "@storybook/addons": "^6.1.14",
-    "@tailwindcss/postcss7-compat": "^2.0.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -25,7 +24,7 @@
     "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "tailwindcss": "^2.0.2",
     "typescript": "^4.1.3",
     "web-vitals": "^0.2.4"
   },
@@ -34,6 +33,7 @@
     "build": "craco build",
     "test": "craco test",
     "build:css": "postcss ./src/assets/css/index.css -o ./src/assets/css/compiled.css",
+    "build:prod:css": "NODE_ENV=production postcss ./src/assets/css/index.css -o ./src/packages/tailwind-extension/styles.css",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
