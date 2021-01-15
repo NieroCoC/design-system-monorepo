@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.0.0",
+    "@msk/tailwind-config": "0.0.1-alpha.1",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-knobs": "^6.1.14",
     "@storybook/addon-notes": "^5.3.21",
