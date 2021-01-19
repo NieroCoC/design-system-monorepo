@@ -1,8 +1,9 @@
 {
   "name": "@mskcc/atoms",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "MSKCC atom base components package",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "author": "Camila Coder <nierococ@mskcc.org>",
   "license": "MIT",
   "private": false,
