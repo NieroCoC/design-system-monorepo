@@ -33,14 +33,15 @@ export const Button: React.FC<ButtonProps> = ({
   label,
   ...props
 }) => {
-  let mode = "rounded-md";
+  let mode = "msk-rounded-md";
 
-  if (primary) mode += " text-white bg-primary-base hover:bg-primary-shadow";
+  if (primary)
+    mode += " msk-text-white msk-bg-primary-base hover:msk-bg-primary-shadow";
   if (!primary)
     mode +=
-      " text-secondary-base border-2 border-secondary-base hover:text-secondary-shadow hover:border-secondary-shadow";
-  if (size === "medium") mode += " px-10 py-3 text-xl";
-  if (size === "small") mode += " px-6 py-2 text-sm";
+      " msk-text-secondary-base msk-border-2 msk-border-secondary-base hover:msk-text-secondary-shadow hover:msk-border-secondary-shadow";
+  if (size === "medium") mode += " msk-px-10 msk-py-3 msk-text-xl";
+  if (size === "small") mode += " msk-px-6 msk-py-2 msk-text-sm";
 
   return (
     <button

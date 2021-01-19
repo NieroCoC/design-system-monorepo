@@ -3,6 +3,7 @@ module.exports = {
     enabled: process.env.NODE_ENV === "production" ? true : false,
     content: ["./src/**/*.{js,jsx,ts,tsx}"],
   },
+  prefix: "msk-",
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -23,6 +24,9 @@ module.exports = {
         secondary: {
           base: "#38657f",
         },
+        core: {
+          "neutral-black": "#222222"
+        }
       },
       backgroundColor: (theme) => ({
         ...theme("colors"),

@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@mskcc/tailwind-extension@^0.0.1":
+  version "0.0.1"
+  resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/@mskcc/tailwind-extension/-/tailwind-extension-0.0.1.tgz#423b5dbdf9ebb5464bc6fd4fb022c35116583552"
+  integrity sha1-QjtdvfnrtUZLxv1PsCLDURZYNVI=
+
 "@types/prop-types@*":
   version "15.7.3"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
