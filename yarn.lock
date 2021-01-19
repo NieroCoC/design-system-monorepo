@@ -1644,11 +1644,6 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@msk/tailwind-config@0.0.1-alpha.1":
-  version "0.0.1-alpha.1"
-  resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/@msk/tailwind-config/-/tailwind-config-0.0.1-alpha.1.tgz#e93c7835eaaa9f2f29151b35e1ceb51e8a1f8e97"
-  integrity sha1-6Tx4Neqqny8pFRs14c61Hoofjpc=
-
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"

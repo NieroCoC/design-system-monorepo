@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.0.0",
-    "@msk/tailwind-config": "0.0.1-alpha.1",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-knobs": "^6.1.14",
     "@storybook/addon-notes": "^5.3.21",
@@ -35,6 +34,7 @@
     "test": "craco test",
     "build:css": "postcss ./src/assets/css/index.css -o ./src/assets/css/compiled.css",
     "build:prod:css": "NODE_ENV=production postcss ./src/assets/css/index.css -o ./src/packages/tailwind-extension/styles.css",
+    "prestorybook": "yarn build:css",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
