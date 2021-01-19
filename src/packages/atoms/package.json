@@ -1,6 +1,6 @@
 {
   "name": "@mskcc/atoms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MSKCC atom base components package",
   "main": "lib/index.js",
   "author": "Camila Coder <nierococ@mskcc.org>",
@@ -19,5 +19,8 @@
     "clean": "rm -rf ./lib",
     "prebuild": "yarn clean",
     "build": "tsc --build \"./tsconfig.json\""
+  },
+  "dependencies": {
+    "@mskcc/tailwind-extension": "^0.0.1"
   }
 }
