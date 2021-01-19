@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.0.0",
+    "@mskcc/atoms": "^0.0.9",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-knobs": "^6.1.14",
     "@storybook/addon-notes": "^5.3.21",

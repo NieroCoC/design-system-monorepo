@@ -1644,6 +1644,18 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
+"@mskcc/atoms@^0.0.9":
+  version "0.0.9"
+  resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/@mskcc/atoms/-/atoms-0.0.9.tgz#ea23eae40279dc8f3fd1a4ce259d5b6915368d77"
+  integrity sha1-6iPq5AJ53I8/0aTOJZ1baRU2jXc=
+  dependencies:
+    "@mskcc/tailwind-extension" "^0.0.1"
+
+"@mskcc/tailwind-extension@^0.0.1":
+  version "0.0.1"
+  resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/@mskcc/tailwind-extension/-/tailwind-extension-0.0.1.tgz#423b5dbdf9ebb5464bc6fd4fb022c35116583552"
+  integrity sha1-QjtdvfnrtUZLxv1PsCLDURZYNVI=
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"

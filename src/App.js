@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@mskcc/atoms";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <button className="bg-black w-24">Test</button>
+      <Button label="Test" />
       <h1 className="text-tiny text-primary-base">another text</h1>
     </div>
   );

@@ -30,5 +30,5 @@
     "**/*.test.tsx",
     "**/*.stories.tsx"
   ],
-  "include": ["components"]
+  "include": ["src"]
 }
