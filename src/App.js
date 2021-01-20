@@ -19,6 +19,9 @@ function App() {
       </header>
       <Button label="Test" />
       <h1 className="text-tiny text-primary-base">another text</h1>
+      <text className="msk-text-secondary-base">
+        <b>test</b>
+      </text>
     </div>
   );
 }

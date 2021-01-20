@@ -23,10 +23,14 @@ module.exports = {
         },
         secondary: {
           base: "#38657f",
+          shadow: "#1F3C4C",
+          accent: "#4F86A6",
+          "accent-hover": "#3F6A83",
+          highlight: "#DDF0FC",
         },
         core: {
-          "neutral-black": "#222222"
-        }
+          "neutral-black": "#222222",
+        },
       },
       backgroundColor: (theme) => ({
         ...theme("colors"),
