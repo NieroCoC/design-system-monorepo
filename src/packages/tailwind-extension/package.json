@@ -1,8 +1,0 @@
-{
-  "name": "@mskcc/tailwind-extension",
-  "version": "0.0.1",
-  "description": "This is a extension of tailwind for msk theme",
-  "author": "Camila Coder <nierococ@mskcc.org>",
-  "license": "MIT",
-  "private": false
-}

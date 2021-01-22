@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import "./font-regular.css";
+
+@import "./vendor.css";
+
+body {
+  font-family: "HCo Gotham SSm", sans-serif;
+  font-weight: 300;
+}
+
+.msk-divider {
+  @apply msk-divide-y-2 msk-divide-solid msk-divide-gray-300;
+}
