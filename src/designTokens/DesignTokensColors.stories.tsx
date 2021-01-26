@@ -7,6 +7,6 @@ const Template: Story<any> = () => <DesignTokensColors />;
 export const Colors = Template.bind({});
 
 export default {
-  title: "Design Tokens",
+  title: "Design Tokens/Colors",
   component: DesignTokensColors,
 } as Meta;
