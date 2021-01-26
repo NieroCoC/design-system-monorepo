@@ -55,7 +55,7 @@ Subtitle.args = {
 
 export const Body = Template.bind({});
 Body.args = {
-  variant: "body1",
+  variant: "body",
 };
 
 export const Caption = Template.bind({});

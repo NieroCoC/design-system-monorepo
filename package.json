@@ -32,9 +32,9 @@
     "build": "craco build",
     "test": "craco test",
     "build:prod": "lerna run build && yarn run build:prod:css",
-    "build:css": "postcss ./src/assets/css/styles.css -o ./src/assets/compiled.css",
+    "build:css": "postcss ./src/assets/css/styles.css -o ./src/assets/css/compiled.css",
     "copy:recursive:assets": "cp -r ./src/assets/css/ src/packages/atoms/lib/css",
-    "build:prod:css": "yarn copy:recursive:assets && NODE_ENV=production postcss ./src/assets/css/styles.css -o ./src/packages/atoms/lib/css/main.css",
+    "build:prod:css": "yarn copy:recursive:assets && NODE_ENV=production postcss ./src/assets/css/styles.css -o ./src/packages/atoms/lib/css/main.css && rm ./src/packages/atoms/lib/css/compiled.css",
     "prestorybook": "yarn build:css",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
