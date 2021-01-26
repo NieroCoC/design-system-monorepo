@@ -19,7 +19,9 @@ const DesignTokensTypography = () => {
         <div className="msk-pb-8">
           <p className="msk-text-gray-500">{t}</p>
           {/* @ts-ignore */}
-          <Typography variant={t}>Top text are here to stay.</Typography>
+          <Typography variant={t}>
+            Lorem Ipsum has been the industry's standard dummy text.
+          </Typography>
         </div>
       ))}
     </Fragment>
