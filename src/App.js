@@ -1,5 +1,6 @@
 import React from "react";
-import { Button } from "@mskcc/atoms";
+// import { Button } from "@mskcc/atoms";
+import { Tabs } from "@mskcc/molecules";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           Learn React
         </a>
       </header>
-      <Button label="Test" />
+      {/* <Button label="Test" /> */}
+      <Tabs tabs={["tab1", "tab2"]} />
       <h1 className="text-tiny text-primary-base">another text</h1>
       <text className="msk-text-secondary-base">
         <b>test</b>

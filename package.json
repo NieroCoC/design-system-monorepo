@@ -29,8 +29,8 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
+    "build": "yarn prod:css && lerna run build",
+    "prod:css": "NODE_ENV=production postcss ./src/assets/css/styles.css -o ./src/assets/css/main.css",
     "build:css": "postcss ./src/assets/css/styles.css -o ./src/assets/css/compiled.css",
     "prestorybook": "yarn build:css",
     "storybook": "start-storybook -p 6006 -s public",
