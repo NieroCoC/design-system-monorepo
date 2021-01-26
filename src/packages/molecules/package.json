@@ -1,18 +1,15 @@
 {
-  "name": "@mskcc/atoms",
-  "version": "0.0.12",
-  "description": "MSKCC atom base components package",
+  "name": "@mskcc/molecules",
+  "version": "0.0.1",
+  "description": "These are molecule components for mskcc",
+  "author": "Camila Coder <nierococ@mskcc.org>",
+  "license": "MIT",
+  "private": true,
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
-  "author": "Camila Coder <nierococ@mskcc.org>",
-  "license": "MIT",
-  "private": false,
-  "engines": {
-    "node": ">=10.0.0"
-  },
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
