@@ -1,4 +1,4 @@
-import "css/styles.css";
+import "./css/main.css";
 import { Button } from "./Button";
 import { Typography } from "./Typography";
 

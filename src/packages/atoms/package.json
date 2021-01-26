@@ -23,8 +23,5 @@
     "clean": "rm -rf ./lib",
     "prebuild": "yarn clean",
     "build": "tsc --build \"./tsconfig.json\""
-  },
-  "dependencies": {
-    "@mskcc/tailwind-extension": "^0.0.1"
   }
 }
