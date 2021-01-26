@@ -12,7 +12,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
       <nav className="msk-flex msk-flex-row">
         {tabs.map((tab, i) => (
           <button
-            className={`msk-text-gray-600 hover:msk-text-primary-base msk-py-4 msk-px-6 msk-block ${
+            className={`msk-text-gray-600 hover:msk-text-primary-base msk-py-2 msk-px-6 msk-block ${
               activeTab === i &&
               " msk-text-primary-base msk-border-b-2 msk-font-medium msk-border-blue-500"
             }`}

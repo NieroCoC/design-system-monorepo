@@ -10,7 +10,7 @@ export default {
 const Template: Story<TabsProps> = (args) => <Tabs {...args} />;
 
 const defaultArgs = {
-  tabs: ["Tab 1", "Tab 2", "Tab 2"],
+  tabs: ["Tab 1", "Tab 2", "Tab 3"],
 };
 
 export const Default = Template.bind({});
