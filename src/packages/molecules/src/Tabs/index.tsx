@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment} from "react";
 
 export interface TabsProps {
   tabs: string[];
@@ -8,7 +8,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div className="msk-bg-white">
+    <Fragment>
       <nav className="msk-flex msk-flex-row">
         {tabs.map((tab, i) => (
           <button
@@ -22,7 +22,10 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
           </button>
         ))}
       </nav>
-    </div>
+      <div>
+        
+      </div>
+    </Fragment>
   );
 };
 

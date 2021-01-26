@@ -4,7 +4,6 @@
   "description": "These are molecule components for mskcc",
   "author": "Camila Coder <nierococ@mskcc.org>",
   "license": "MIT",
-  "private": true,
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
