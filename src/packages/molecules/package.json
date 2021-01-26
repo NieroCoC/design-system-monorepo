@@ -1,6 +1,6 @@
 {
   "name": "@mskcc/molecules",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "These are molecule components for mskcc",
   "author": "Camila Coder <nierococ@mskcc.org>",
   "license": "MIT",
