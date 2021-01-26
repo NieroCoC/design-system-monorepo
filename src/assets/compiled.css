@@ -31316,9 +31316,9 @@ video {
   animation: msk-bounce 1s infinite;
 }
 
-@import "./css/font-regular.css";
+@import "./font-regular.css";
 
-@import "./css/vendor.css";
+@import "./vendor.css";
 
 body {
   font-family: "HCo Gotham SSm", sans-serif;

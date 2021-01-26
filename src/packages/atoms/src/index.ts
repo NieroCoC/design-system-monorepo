@@ -1,4 +1,5 @@
-import "@mskcc/tailwind-extension/styles.css";
+import "css/styles.css";
 import { Button } from "./Button";
+import { Typography } from "./Typography";
 
-export { Button };
+export { Button, Typography };

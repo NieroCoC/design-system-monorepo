@@ -2403,13 +2403,6 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@mskcc/atoms@^0.0.9":
-  version "0.0.9"
-  resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/@mskcc/atoms/-/atoms-0.0.9.tgz#ea23eae40279dc8f3fd1a4ce259d5b6915368d77"
-  integrity sha1-6iPq5AJ53I8/0aTOJZ1baRU2jXc=
-  dependencies:
-    "@mskcc/tailwind-extension" "^0.0.1"
-
 "@mskcc/tailwind-extension@^0.0.1":
   version "0.0.1"
   resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/@mskcc/tailwind-extension/-/tailwind-extension-0.0.1.tgz#423b5dbdf9ebb5464bc6fd4fb022c35116583552"
@@ -3843,6 +3836,13 @@
   dependencies:
     "@types/react" "^16"
 
+"@types/react-dom@^17.0.0":
+  version "17.0.0"
+  resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/@types/react-dom/-/react-dom-17.0.0.tgz#b3b691eb956c4b3401777ee67b900cb28415d95a"
+  integrity sha1-s7aR65VsSzQBd37me5AMsoQV2Vo=
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-syntax-highlighter@11.0.4":
   version "11.0.4"
   resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/@types/react-syntax-highlighter/-/react-syntax-highlighter-11.0.4.tgz#d86d17697db62f98046874f62fdb3e53a0bbc4cd"
@@ -3857,7 +3857,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
+"@types/react@*", "@types/react@^17.0.0":
   version "17.0.0"
   resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/@types/react/-/react-17.0.0.tgz#5af3eb7fad2807092f0046a1302b7823e27919b8"
   integrity sha1-WvPrf60oBwkvAEahMCt4I+J5Gbg=
@@ -14623,7 +14623,7 @@ react-docgen@^5.0.0:
     node-dir "^0.1.10"
     strip-indent "^3.0.0"
 
-react-dom@^16.8.3:
+react-dom@^16.8.3, react-dom@^16.9.0:
   version "16.14.0"
   resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
   integrity sha1-etg47Cmnd/s8dcOhkPZhz5Kri4k=
@@ -14929,7 +14929,7 @@ react-transition-group@^4.3.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react@^16.8.3:
+react@^16.8.3, react@^16.9.0:
   version "16.14.0"
   resolved "https://pkgs.dev.azure.com/MSKDevOps/_packaging/node-common/npm/registry/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   integrity sha1-lNd23dCqo32j7aj8W2sYpMmjEU0=

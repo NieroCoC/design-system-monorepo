@@ -2,6 +2,9 @@
   "name": "design-system-monorepo",
   "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "src/packages/*"
+  ],
   "dependencies": {
     "@craco/craco": "^6.0.0",
     "@mskcc/atoms": "^0.0.9",
@@ -29,9 +32,10 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "build:css": "postcss ./src/assets/styles.css -o ./src/assets/compiled.css",
-    "copy:recursive:assets": "rm -rf src/packages/tailwind-extension/css && cp -r ./src/assets/css/ src/packages/tailwind-extension/css",
-    "build:prod:css": "yarn copy:recursive:assets && NODE_ENV=production postcss ./src/assets/styles.css -o ./src/packages/tailwind-extension/styles.css",
+    "build:prod": "lerna run build && yarn run build:prod:css",
+    "build:css": "postcss ./src/assets/css/styles.css -o ./src/assets/compiled.css",
+    "copy:recursive:assets": "cp -r ./src/assets/css/ src/packages/atoms/lib/css",
+    "build:prod:css": "yarn copy:recursive:assets && NODE_ENV=production postcss ./src/assets/css/styles.css -o ./src/packages/atoms/lib/css/styles.css",
     "prestorybook": "yarn build:css",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
