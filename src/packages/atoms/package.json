@@ -1,6 +1,6 @@
 {
   "name": "@mskcc/atoms",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "MSKCC atom base components package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
