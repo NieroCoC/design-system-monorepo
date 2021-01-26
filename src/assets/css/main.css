@@ -748,9 +748,9 @@ video {
   color: rgba(75, 85, 99, var(--tw-text-opacity));
 }
 
-.msk-text-blue-500 {
+.msk-text-primary-base {
   --tw-text-opacity: 1;
-  color: rgba(59, 130, 246, var(--tw-text-opacity));
+  color: rgba(9, 104, 195, var(--tw-text-opacity));
 }
 
 .msk-text-secondary-base {
@@ -758,9 +758,9 @@ video {
   color: rgba(56, 101, 127, var(--tw-text-opacity));
 }
 
-.hover\:msk-text-blue-500:hover {
+.hover\:msk-text-primary-base:hover {
   --tw-text-opacity: 1;
-  color: rgba(59, 130, 246, var(--tw-text-opacity));
+  color: rgba(9, 104, 195, var(--tw-text-opacity));
 }
 
 .hover\:msk-text-secondary-shadow:hover {
